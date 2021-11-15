@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Иоланта Романова](https://up.htmlacademy.ru/htmlcss/32/user/1766081).
-* Наставник: `Неизвестно`.
+* Студент: [Иоланта Романова](https://up.htmlacademy.ru/profession/frontender/12/htmlcss/user/1766081).
+* Наставник: [Владислав Кривокора](https://up.htmlacademy.ru/profession/frontender/12/htmlcss/user/167185).
 
 ---
 

@@ -1,0 +1,282 @@
+/* ШРИФТЫ */
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2"),
+    url("../fonts/ptsans-400.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/pt-sans-700.woff2") format("woff2"),
+    url("../fonts/ptsans-700.woff") format("woff");
+    font-display: swap;
+}
+
+/* ОСНОВНЫЕ НАСТРОЙКИ */
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+h2, h3 {
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 36px; 
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 28px; 
+}
+
+h4 {    
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px; 
+}
+
+  /* Хедер */
+.page-header {
+    color: #000000;
+  }
+
+  /* НАВИГАЦИЯ */
+
+  ul, ol {
+      list-style: none;      
+      margin-left: 0;
+      padding-left: 0;
+  }
+
+  /* Ссылки навигации и ссылки, которые могут добавить на сайт позднее */
+.navigation-link, a {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: inherit; /* не синие */
+    text-decoration: none; /* без подчёркивания */
+}
+
+/* КНОПКИ */
+
+.button, button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #756257;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .blue-button {
+    background-color: #83B3D3;
+  }
+
+  .green-button {
+    background-color: #7DB54F;
+  }
+
+  .reset-button {
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    text-transform: none;
+    background-color: transparent;
+  }
+
+.find-hotel-link {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.subscribe-button, .catalog-pagination-more, .catalog-pagination-link {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.catalog-pagination-current {
+    background-color: #F2F2F2;
+    color: #000000;
+}
+
+/* ПРИВЕТСТВИЕ */
+
+/* Фон приветствия */
+.welcome {
+    color: #FFFFFF;
+    background-color: #68A2CA;
+    background-image: url("../img/index/welcome-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 485px;
+    text-align: center; /* центрирует содержимое */
+}
+
+/* Нижняя декоративная рамка фона */
+.welcome-divider {
+    background-position: bottom;
+    background-image: url("../img/index/svg/divider.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;    
+    width: inherit;
+    height: inherit;
+}
+
+/* ПРЕИМУЩЕСТВА */
+
+.advantages-header-subtitle {    
+    line-height: 36px; 
+}
+
+/* Обычный блок */
+.advantages-block {
+    font-size: 18px;
+    line-height: 21px;
+    background-color: rgba(131, 179, 211, 0.12);
+    text-align: center;
+}
+
+/* Голубой блок */
+.block-lightblue {
+    background-color: rgba(131, 179, 211, 0.2);
+}
+
+/* Синий блок */
+.block-blue {
+    background-color: #83B3D3;
+    color: #ffffff;
+}
+
+.block-blue .advantages-title {
+    color: inherit;
+}
+
+/* Блоки-особенности */
+.features-item .advantages-block {
+    background-repeat: no-repeat;
+}
+
+.features-housing {
+    background-image: url("../img/index/svg/housing.svg");
+}
+
+.features-food {
+    background-image: url("../img/index/svg/food.svg");
+}
+
+.features-souvenir {
+    background-image: url("../img/index/svg/souvenir.svg");
+}
+
+/* Подписка */
+.subscribe {
+    background-color: #68A2CA;
+    background-image: url("../img/index/subscribe-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+/* ФУТЕР */
+
+.footer-address-phone {
+    font-family: inherit;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* КАТАЛОГ */
+
+.inner-header-title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.inner-background-container {
+    color: #FFFFFF;
+    background-color: #68A2CA;
+    background-image: url("../img/catalog/catalog-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.breadcrumbs-link {    
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;    
+    line-height: 21px;
+    color: inherit;
+    text-transform: none;
+}
+
+fieldset {
+    border: none;
+}
+
+.catalog {
+    text-align: left;
+}
+
+.catalog-search-result {
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.catalog-filter {
+    font-size: 18px;    
+    line-height: 23px;
+}
+
+.catalog-filter-title {    
+    font-weight: 700;
+    font-size: 20px;    
+    line-height: 26px;
+}
+
+/* ГОСТИНИЦЫ */
+
+.hotel-description, .catalog-display-text {
+    font-size: 18px;
+    line-height: 23px;    
+    font-weight: 400;
+}
+
+.hotel-rating {
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: center;
+}

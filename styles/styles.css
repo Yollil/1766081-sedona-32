@@ -145,6 +145,11 @@ h4 {
     height: inherit;
 }
 
+/* Приветственная надпись */
+.welcome-image {
+    padding-top: 51px; /* отступ сверху */
+}
+
 /* ПРЕИМУЩЕСТВА */
 
 .advantages-header-subtitle {    
@@ -198,6 +203,10 @@ h4 {
     background-size: 100% auto;
     background-repeat: no-repeat;
     color: #ffffff;
+}
+
+.subscribe-title {
+    color: inherit;
 }
 
 /* ФУТЕР */
@@ -280,3 +289,4 @@ fieldset {
     text-transform: uppercase;
     text-align: center;
 }
+

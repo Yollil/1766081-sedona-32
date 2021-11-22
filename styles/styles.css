@@ -117,8 +117,8 @@ body {
     margin: 0 auto;
     padding-top: 40px;
     justify-content: space-between;
-    /*outline: 5px solid red;
-    outline-offset: -5px;*/
+    /* outline: 5px solid red;
+    outline-offset: -5px; */
 }
 
   /* НАВИГАЦИЯ */
@@ -126,8 +126,8 @@ body {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    /*outline: 5px solid red;
-    outline-offset: -5px;*/
+    /* outline: 5px solid red;
+    outline-offset: -5px; */
 }
 
 .navigation-list {
@@ -158,8 +158,8 @@ body {
     padding-bottom: 20px;
     margin-right: 22px;
     text-align: center;
-    outline: 1px solid red;
-    outline-offset: -1px;
+    /* outline: 1px solid red;
+    outline-offset: -1px; */
 }
 
 /* КНОПКИ */
@@ -469,8 +469,8 @@ fieldset {
     padding-bottom: 31px;
     border-bottom: 1px solid #e6e6e6;
     margin: 0px;
-    outline: 1px solid red;
-    outline-offset: -1px;
+    /* outline: 1px solid red;
+    outline-offset: -1px; */
 }
 
 .hotel-card-image {
